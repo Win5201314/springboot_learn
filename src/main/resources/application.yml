@@ -1,0 +1,11 @@
+server:
+  port: 8081
+spring:
+  devtools:
+    restart:
+      enabled: true
+      additional-paths: src/main/java
+      exclude: static/**,WEB-INF/view/**
+    livereload:
+      port: 35730 #指定端口,具体视自己情况而定,只要不重复就可以
+
